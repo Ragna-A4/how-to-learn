@@ -1,0 +1,8 @@
+.knan__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+  }

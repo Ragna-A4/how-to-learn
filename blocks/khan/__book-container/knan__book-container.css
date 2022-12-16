@@ -1,0 +1,9 @@
+.knan__book-container {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 608px;
+    position: relative;
+    overflow: hidden;
+  }
