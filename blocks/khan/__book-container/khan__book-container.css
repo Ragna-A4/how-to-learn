@@ -3,7 +3,5 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    height: 608px;
-    position: relative;
-    overflow: hidden;
-  }
+    gap: 48px;
+}

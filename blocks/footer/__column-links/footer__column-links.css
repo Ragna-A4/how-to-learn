@@ -4,7 +4,8 @@
     font-weight: normal;
     color: #fff;
   }
-  
-  .footer__column-links:last-of-type {
+
+  .footer__column-links:last-of-type { 
+
     margin-bottom: 18px;
   }

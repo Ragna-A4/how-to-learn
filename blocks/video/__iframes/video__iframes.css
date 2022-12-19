@@ -1,7 +1,8 @@
 .video__iframes {
-    margin: 50px auto auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 50px auto 0;
+  padding: 0;
+  list-style-type: none;
+  gap: 20px;
   }

@@ -3,6 +3,7 @@
     border-radius: 50%;
     width: 160px;
     height: 160px;
+    object-fit: cover;
     margin: 0 40px;
     overflow: hidden;
   }
