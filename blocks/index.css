@@ -63,9 +63,9 @@
 @import url(./resources/__link/resources__link.css);
 @import url(./footer/footer.css);
 @import url(./footer/__columns/footer__columns.css);
-@import url(./footer/_content/footer__column_content_copyright.css);
-@import url(./footer/_content/footer__column_content_info.css);
-@import url(./footer/_content/footer__column_content_social.css);
+@import url(./footer/__column/_content/footer__column_content_copyright.css);
+@import url(./footer/__column/_content/footer__column_content_info.css);
+@import url(./footer/__column/_content/footer__column_content_social.css);
 @import url(./footer/__author/footer__author.css);
 @import url(./footer/__column-heading/footer__column-heading.css);
 @import url(./footer/__column-links/footer__column-links.css);
