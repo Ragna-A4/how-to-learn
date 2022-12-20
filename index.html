@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./blocks/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body class="page">
   <header class="header centered-block">
-    <img src="./images/logo_place_header.svg" alt="япрактикум_лого" class="logo logo_place_header">
+    <div class="logo logo_place_header"></div>
     <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
       <a class="header__link transparent-link" href="#">Узнать &#8594;</a>
@@ -139,7 +139,7 @@
     <section class="kaufman">
       <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
       <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
-      <img src="./images/kaufman-triangle.svg" alt="треугольник" class="kaufman__triangle rotation">
+      <div class="kaufman__triangle rotation"></div>
       <ul class="table table_theme_dark">
         <li class="table__cell table__cell_theme_dark">
           <p class="table__heading table__heading_theme_dark">1</p>
@@ -187,24 +187,24 @@
       <h2 class="section-title">Полезные ресурсы</h2>
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
       <ul class="resources__logo-zone">
-        <li class="resources__link">
-          <a class="transparent-link" href="#">
-            <img src="./images/resources-arzamas.svg" alt="арзамас">
+        <li>
+          <a class="resources__link transparent-link" href="#">
+            <img src="./images/resources-arzamas.svg" alt="арзамас" class="resources__logo">
+          </a>
+        </li>
+        <li>
+          <a class="resources__link transparent-link" href="#">
+            <img src="./images/resources-n1.svg" alt="н1" class="resources__logo">
+          </a>
+        </li>
+        <li>
+          <a class="resources__link transparent-link" href="#">
+            <img src="./images/resources-strelka.svg" alt="стрелка" class="resources__logo">
           </a>
         </li>
         <li class="resources__link">
           <a class="transparent-link" href="#">
-            <img src="./images/resources-n1.svg" alt="н1">
-          </a>
-        </li>
-        <li class="resources__link">
-          <a class="transparent-link" href="#">
-            <img src="./images/resources-strelka.svg" alt="стрелка">
-          </a>
-        </li>
-        <li class="resources__link">
-          <a class="transparent-link" href="#">
-            <img src="./images/resources-polka.svg" alt="полка">
+            <img src="./images/resources-polka.svg" alt="полка" class="resources__logo">
           </a>
         </li>
       </ul>
@@ -213,29 +213,33 @@
   <footer class="footer">
     <div class="footer__columns">
       <div class="footer__column footer__column_content_copyright">
-        <img src="./images/logo_place_footer.svg" alt="япрактикум_лого" class="logo logo_place_footer">
+        <div class="logo logo_place_footer"></div>
         <p class="footer__author">&copy; Виктор Абанькин</p>
       </div>
       <nav class="footer__column footer__column_content_info">
         <h3 class="footer__column-heading">О Практикуме</h3>
-        <a class="footer__column-links transparent-link" href="#">Главная</a>
-        <a class="footer__column-links transparent-link" href="#">Концепция</a>
-        <a class="footer__column-links transparent-link" href="#">Наставники</a>
+        <div class="footer__column-links">
+          <a class="footer__column-link transparent-link" href="#">Главная</a>
+          <a class="footer__column-link transparent-link" href="#">Концепция</a>
+          <a class="footer__column-link transparent-link" href="#">Наставники</a>
+        </div>
       </nav>
       <nav class="footer__column footer__column_content_social">
         <h3 class="footer__column-heading">Соцсети</h3>
-        <a class="footer__column-link transparent-link" href="#">
-          <img src="./images/youtube-icon.svg" alt="ютуб_лого" class="footer__column-icon">
+        <div class="footer__column-links">
+          <a class="footer__column-link transparent-link" href="#">
+            <img src="./images/youtube-icon.svg" alt="ютуб_лого" class="footer__column-icon">
             YouTube
-        </a>
-        <a class="footer__column-link transparent-link" href="#">
-          <img src="./images/vk_color_white.svg" alt="вк_лого" class="footer__column-icon">
+          </a>
+          <a class="footer__column-link transparent-link" href="#">
+            <img src="./images/vk_color_white.svg" alt="вк_лого" class="footer__column-icon">
             ВКонтакте
-        </a>
-        <a class="footer__column-link transparent-link" href="#">
+          </a>
+          <a class="footer__column-link transparent-link" href="#">
             <img src="./images/tiktok-icon.svg" alt="тикток_лого" class="footer__column-icon">
             TikTok
-        </a>
+          </a>
+        </div>
       </nav>
     </div>
   </footer>

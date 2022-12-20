@@ -3,5 +3,5 @@
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 100px auto;
+    margin: 100px auto -50px;
   }
